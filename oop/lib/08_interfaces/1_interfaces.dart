@@ -1,5 +1,5 @@
-import 'package:oop/8_interfaces/gol.dart';
-import 'package:oop/8_interfaces/uno.dart';
+import 'package:oop/08_interfaces/gol.dart';
+import 'package:oop/08_interfaces/uno.dart';
 import 'carro.dart';
 
 void main(List<String> args) {

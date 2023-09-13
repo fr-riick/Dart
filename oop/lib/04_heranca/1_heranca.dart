@@ -1,4 +1,4 @@
-import 'package:oop/4_heranca/cachorro.dart';
+import 'package:oop/04_heranca/cachorro.dart';
 
 void main() {
   var cachorro = Cachorro(idade: 10, tamanho: 'Grande porte');

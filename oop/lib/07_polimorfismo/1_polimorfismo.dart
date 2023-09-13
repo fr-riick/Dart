@@ -1,5 +1,5 @@
-import 'package:oop/7_polimorfismo/anestesista.dart';
-import 'package:oop/7_polimorfismo/obstetra.dart';
+import 'package:oop/07_polimorfismo/anestesista.dart';
+import 'package:oop/07_polimorfismo/obstetra.dart';
 
 import 'medico.dart';
 

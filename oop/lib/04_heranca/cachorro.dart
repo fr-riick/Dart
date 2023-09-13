@@ -1,4 +1,4 @@
-import 'package:oop/4_heranca/animal.dart';
+import 'package:oop/04_heranca/animal.dart';
 
 class Cachorro extends Animal {
 

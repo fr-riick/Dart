@@ -1,4 +1,4 @@
-import 'package:oop/5_heranca_covariante/mamifero.dart';
+import 'package:oop/05_heranca_covariante/mamifero.dart';
 import 'banana.dart';
 
 class Macaco extends Mamifero {
