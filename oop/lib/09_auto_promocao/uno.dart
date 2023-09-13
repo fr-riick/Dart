@@ -1,6 +1,6 @@
 
 
-import 'package:oop/9_auto_promocao/carro.dart';
+import 'package:oop/09_auto_promocao/carro.dart';
 
 class Uno implements Carro {
   @override
