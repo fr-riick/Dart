@@ -1,7 +1,7 @@
 void main() {
   var p1 = Pessoa();
-  p1.nome = 'Rickardo';
-  print(p1.nome);
+  p1.nome = 'Rick';
+  print(p1.nome ?? "nome não identificado");
 }
 
 class Pessoa {

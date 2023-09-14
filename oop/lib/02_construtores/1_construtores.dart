@@ -4,6 +4,7 @@ void main() {
 
   //  chamando Construtor
   var pessoa1 = Pessoa(idade: 24, sexo: 'Masculino');
+  // pessoa1.nome = "Rick";
   print(pessoa1.nome);
 
   // Chamando Construtor nomeado

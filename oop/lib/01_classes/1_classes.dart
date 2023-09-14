@@ -10,7 +10,7 @@ void main(List<String> args) {
   camisetaNike.tamanho = 'G';
   camisetaNike.cor = 'Preta';
   camisetaNike.marca = 'Nike';
-  // camisetaNike.material = 'Algodão';
+  camisetaNike.material = 'Algodão';
   camisetaNike.regata = 'Manga longa';
 
   print('''

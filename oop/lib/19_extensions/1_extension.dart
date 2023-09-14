@@ -4,4 +4,7 @@ void main(List<String> args) {
   print(nome.saudacao());
 
   print(nome.capsLock());
+
+  var n = 5;
+  print(n.soma());
 }

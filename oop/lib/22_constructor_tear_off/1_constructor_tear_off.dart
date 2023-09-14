@@ -2,7 +2,7 @@ void main(){
   final nomes = ['Rick', 'Lucas', 'Maria', 'Jose'];
 
   // forma antiga
-  // final pessoasAntigo = nomes.map((nome) => Pessoa(nome)).toList();
+  // final pessoasAntigo = nomes.map((e) => Pessoa(e)).toList();
   
   // o new uso caso o construtor não seja nomeado
   final pessoas = nomes.map<Pessoa>(Pessoa.new).toList();
@@ -20,5 +20,5 @@ class Pessoa {
   String nome;
 
   Pessoa(this.nome);
-  // Pessoa.nome(this.nome);
+  Pessoa.nome(this.nome);
 }

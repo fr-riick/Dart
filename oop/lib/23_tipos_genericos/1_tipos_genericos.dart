@@ -1,10 +1,18 @@
+
 void main(){
 
-  final caixa = Caixa<Bola>();
+  final caixa = Caixa();
   caixa.adicionar(Bola());
   print(caixa.alturaItem());
+  print(caixa.getItem());
+
 }
 
+
+
+// tipos genericos, é quando vc cria uma variavel que pode ser vários tipos
+// nesse exemplo a classe Caixa tem uma variavel chamada I, ela pode ser qualquer tipo que extenda de Item
+// Normalmente tipos genéricos são declarados como uma letra maiuscula
 class Caixa<I extends Item> {
 
   I? _item;
@@ -21,6 +29,9 @@ class Caixa<I extends Item> {
     return _item?.altura() ?? 0;
   }
 }
+
+
+
 
 abstract class Item {
   double altura();
